@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>Crêpes Generator</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Crepe.css" />
+    <link rel="icon" type="image/png" href="img/CrepeIcone.png">
+
+</head>
+
+<body>
+
+    <h2>
+        Crêpes Générator<br /> Générateur de recettes de crêpes
+    </h2>
+
+    <div id="container">
+
+        <p id="personne">Nombre de personnes : <input type="number" id="how-many" oninput="Crepe()" min="1"
+                placeholder="Nb. personnes" /></p>
+
+        <div id="ingredients">
+
+            <table>
+
+                <tbody>
+
+                    <tr>
+                        <td id="farine"></td>
+                        <td id="oeuf"></td>
+                        <td id="lait"></td>
+                    </tr>
+
+                    <tr>
+                        <td id="sucre"></td>
+                        <td id="beurre"></td>
+
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+
+        <div id="recette">
+            <p id="txt-rec">
+                
+            </p>
+
+        </div>
+    </div>
+
+    <script async src="crepe.js"></script>
+</body>
+
+</html>
